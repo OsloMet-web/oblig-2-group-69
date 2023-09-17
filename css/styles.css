@@ -1,8 +1,77 @@
-#author-name {
-	color: orangered;
+html {
+	font-family: sans-serif;
+	background-color: #f0f1f2;
 }
 
-.hero-image {
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+.author {
+	color: #5f6265;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+#author-name {
+	color: orangered;
+	text-transform: uppercase;
+}
+
+figure {
 	margin-left: 0;
 	margin-right: 0;
+}
+
+figcaption {
+	font-size: 13px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-weight: 600;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-gap: 20px;
+}
+
+.content {
+	max-width: 740px;
+}
+
+.content > p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.content > p > a {
+	color: orangered;
+	text-decoration: none;
+}
+
+.content > p:not(:first-child) {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.side-part div {
+	background-image: url('/assets/download.svg');
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 100px;
+}
+
+.side-part div span {
+	display: block;
+	text-align: center;
+	padding-top: 40%;
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
 }
