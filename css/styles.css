@@ -18,7 +18,7 @@ h2 {
 }
 
 #author-name {
-	color: orangered;
+	color: red;
 	text-transform: uppercase;
 }
 
@@ -50,7 +50,7 @@ figcaption {
 }
 
 .content > p > a {
-	color: orangered;
+	color: red;
 	text-decoration: none;
 }
 
